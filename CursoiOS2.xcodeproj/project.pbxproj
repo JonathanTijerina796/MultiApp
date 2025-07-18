@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FC90B2442E2190B3007EAC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC90B2432E2190B3007EAC82 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FC42D3262E202E38000B8FB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		FC42D3182E202E37000B8FB4 /* CursoiOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoiOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC42D3252E202E38000B8FB4 /* CursoiOS2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoiOS2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC42D32F2E202E38000B8FB4 /* CursoiOS2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursoiOS2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC90B2432E2190B3007EAC82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		FC42D30F2E202E37000B8FB4 = {
 			isa = PBXGroup;
 			children = (
+				FC90B2432E2190B3007EAC82 /* Assets.xcassets */,
 				FC42D31A2E202E37000B8FB4 /* CursoiOS2 */,
 				FC42D3282E202E38000B8FB4 /* CursoiOS2Tests */,
 				FC42D3322E202E38000B8FB4 /* CursoiOS2UITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC90B2442E2190B3007EAC82 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
