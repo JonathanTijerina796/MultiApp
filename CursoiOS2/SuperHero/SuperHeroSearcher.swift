@@ -1,8 +1,8 @@
 //
-//  SuperheroSearcher.swift
-//  CursoiOS
+//  CursoiOS2App.swift
+//  CursoiOS2
 //
-//  Created by Arístides Guimerá Orozco on 26/5/24.
+//  Created by Jona on 10/07/25.
 //
 
 import SwiftUI
