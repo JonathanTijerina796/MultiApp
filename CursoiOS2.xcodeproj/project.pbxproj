@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC5D4E992E3942C900D10ACA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FC5D4E982E3942C900D10ACA /* SDWebImageSwiftUI */; };
 		FC90B2442E2190B3007EAC82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC90B2432E2190B3007EAC82 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5D4E992E3942C900D10ACA /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +120,7 @@
 			);
 			name = CursoiOS2;
 			packageProductDependencies = (
+				FC5D4E982E3942C900D10ACA /* SDWebImageSwiftUI */,
 			);
 			productName = CursoiOS2;
 			productReference = FC42D3182E202E37000B8FB4 /* CursoiOS2.app */;
@@ -201,6 +204,9 @@
 			);
 			mainGroup = FC42D30F2E202E37000B8FB4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FC5D4E972E39422A00D10ACA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FC42D3192E202E37000B8FB4 /* Products */;
 			projectDirPath = "";
@@ -557,6 +563,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC5D4E972E39422A00D10ACA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC5D4E982E3942C900D10ACA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC5D4E972E39422A00D10ACA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC42D3102E202E37000B8FB4 /* Project object */;
 }

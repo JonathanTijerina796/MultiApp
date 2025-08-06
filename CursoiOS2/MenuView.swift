@@ -1,8 +1,8 @@
 //
 //  MenuView.swift
-//  CursoiOS2
+//  CursoiOS
 //
-//  Created by Jona on 11/07/25.
+//  Created by Arístides Guimerá Orozco on 15/5/24.
 //
 
 import SwiftUI
@@ -11,20 +11,21 @@ struct MenuView: View {
     var body: some View {
         NavigationStack{
             List{
-                
-                NavigationLink (destination:IMCView()) {
-                    Text("Iniciar IMC Calculator")
-                    
+                NavigationLink(destination:IMCView()){
+                    Text("IMC Calculator")
                 }
-                Text("App 2")
-                Text("App 3")
-                Text("App 4")
-                Text("App 5")
-              
+                NavigationLink(destination:SuperheroSearcher()){
+                    Text("Superhero finder")
+                }
+                NavigationLink(destination:FavPlaces()){
+                    Text("Fav Places")
+                }
+
+                }
             }
         }
     }
-}
+
 
 #Preview {
     MenuView()
