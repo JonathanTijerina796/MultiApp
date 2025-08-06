@@ -2,7 +2,7 @@
 //  MenuView.swift
 //  CursoiOS
 //
-//  Created by Arístides Guimerá Orozco on 15/5/24.
+//  Created by Jona on 10/07/25
 //
 
 import SwiftUI
